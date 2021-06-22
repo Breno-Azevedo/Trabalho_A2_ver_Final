@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Jun 22 13:56:59 2021
-
-@author: Gustavo Ramalho
-"""
-
 '''
 Neste módulo as imagens do plano de fundo são determinadas, bem como as dimensões
 da tela do jogo.

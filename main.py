@@ -4,7 +4,7 @@ Este módulo contém as funções principais responsáveis pelo funcionamento do
 
 # Módulos imporatados
 import pygame
-import os
+import random
 # Classes e variáveis específicas que precisaram ser importadas;
 from elementos import (
     Player,
