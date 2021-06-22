@@ -2,7 +2,7 @@
 """
 Created on Tue Jun 22 13:56:59 2021
 
-@author: gusta
+@author: Gustavo Ramalho
 """
 
 '''
