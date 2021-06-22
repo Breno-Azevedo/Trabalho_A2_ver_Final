@@ -64,8 +64,8 @@ def main():
         
         Respectivamente, temos o conteúdo, um valor inicial e a cor da fonte
         '''
-        lives_label = main_font.render(f"Lives: {lives}", 1, (255, 255, 255))
-        level_label = main_font.render(f"Level: {level}", 1, (255, 255, 255))
+        lives_label = main_font.render(f"Vidas: {lives}", 1, (255, 255, 255))
+        level_label = main_font.render(f"Nível: {level}", 1, (255, 255, 255))
         
         # Localização do texto
         WIN.blit(lives_label, (10, 10)) # 10p para a direita e 10p para baixo;
@@ -82,7 +82,7 @@ def main():
         
         # Tela de derrota;
         if lost:
-            lost_label = lost_font.render("You Lost!", 1, (255, 255, 255))
+            lost_label = lost_font.render("Perdeu!", 1, (255, 255, 255))
             WIN.blit(lost_label, (WIDTH / 2 - lost_label.get_width() / 2, 350))
         
         pygame.display.update()
@@ -234,7 +234,7 @@ def main_menu():
         y += 1
         
         # Título do jogo
-        title_label = title_font.render("Press the mouse to begin...", 1, (255, 255, 255))
+        title_label = title_font.render("Clique com o mouse", 1, (255, 255, 255))
         WIN.blit(title_label, (WIDTH / 2 - title_label.get_width() / 2, 350))
         
         # Update da janela do jogo;
@@ -257,7 +257,7 @@ def paused():
     
     # Mensagem que é exibida na tela;
     pause_font = pygame.font.SysFont("comicsans", 50)
-    pause_label = pause_font.render("Paused, press any keybord key to resume", 1, (255, 255, 255))
+    pause_label = pause_font.render("Pausado, use o teclado para resumir", 1, (255, 255, 255))
     WIN.blit(pause_label, (WIDTH / 2 - pause_label.get_width() / 2, 350))
     
     # Atualiza a tela do pygame;

@@ -257,7 +257,6 @@ class Enemy(Ship):
         # Os inimigos se movem para baixo de forma constante e para os lados 
         # de forma aleatória;
         self.y += vel
-        #self.x += random.randrange(-1, 1)
     
     # Função que determina o disparo dos lasers inimigos;
     def shoot(self):
