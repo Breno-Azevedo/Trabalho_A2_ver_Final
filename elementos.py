@@ -10,8 +10,6 @@ funcionamento do jogo.
 import pygame
 import os
 from fundo import HEIGHT
-import random
-from fundo import WIDTH, HEIGHT
 
 #pygame.display.set_mode()
 pygame.mixer.init()
@@ -60,7 +58,7 @@ music = pygame.mixer.music.load('futurama_theme.mp3')   # Música de Fundo
 # Loop da Música de Fundo
 pygame.mixer.music.play(-1)
 # Volume da Música de Fundo
-pygame.mixer_music.set_volume(0.3)
+pygame.mixer_music.set_volume(0.2)
 
 # Efeitos Sonoros - Laser sound
 laser_sound = pygame.mixer.Sound('laser_wrath.wav')
